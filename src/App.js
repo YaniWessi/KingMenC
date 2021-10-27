@@ -12,6 +12,7 @@ function App() {
       <div className="App">
         <NavBar/>
         <GetAQuoteButton/>
+      {/* for my commit */}
         {/* <WhatWeDo/> */}
 
       </div>
