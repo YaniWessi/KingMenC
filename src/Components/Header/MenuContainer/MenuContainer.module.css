@@ -1,0 +1,8 @@
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: inherit;
+    padding-right: 2rem;
+    padding-left: 1rem;
+}

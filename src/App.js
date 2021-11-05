@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import GetAQuoteButton from './Components/GetAQuoteButton';
-import NavMenu from './Components/Header/NavMenu';
-import NavHeader from './Components/Header/NavHeader';
+import NavMenu from './Components/Header/MenuContainer/MenuContainer';
+import NavHeader from './Components/Header/HeadExport/HeaderExport';
 import WhatWeDo from './Components/WhatWeDo';
 import './App.css';
 
@@ -14,9 +14,6 @@ function App() {
       <div className="App">
         <NavHeader/>
         <GetAQuoteButton/>
-      {/* for my commit */}
-        {/* <WhatWeDo/> */}
-        <NavMenu/>
       </div>
     </>
   );
@@ -26,17 +23,3 @@ export default App;
 
 
 
-
-{/* <nav>
-<h1>Kingsman Construction</h1>
-<div>
-  <Link to="/">App</Link>
-  <Link to="/AboutUs">AboutUs</Link>
-  <Link to="/ContactUs">ContactUs</Link>
-  <Link to="/Gallery">Gallery</Link>
-  <Link to="/GetaQuote">GetaQuote</Link>
-  <Link to="/OurProcess">OurProcess</Link>
-  <Link to="/Testimonilas">Testimonilas</Link>
-</div>
-</nav> */}
-{/* <Route path='/' component={App} />   */}

@@ -1,0 +1,24 @@
+.active-menu {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+}
+
+.active-menu a {
+    text-decoration: none;
+    text-align: none;
+    color: black;
+    width: inherit;
+    padding: 0 1.5rem;
+}
+
+.active-menu a:hover {
+    background: dodgerblue;
+    color: aliceblue;
+}
+
+.hidden-menu {
+    display: none;
+}
